@@ -47,11 +47,11 @@ The file <a href="How to use the Faker library.ipynb">How to use the Faker libra
 
 #### Generating CSV
 ***
-    Generating a CSV file with fake data from 1000 people.
+Generating a CSV file with fake data from 1000 people.
 
 #### Generating JSON
 ***
-    Generating a JSON file with fake data from 1000 people.
+Generating a JSON file with fake data from 1000 people.
 
 ## Use case 3 - Querying data in DynamoDB
 ***
@@ -59,15 +59,15 @@ The file <a href="Use case 3 - Querying data in DynamoDB.ipynb">Use case 3 - Que
 
 #### Full Scan
 ***
-    When using PartiQL, if we do not specify an expression in the condition that searches for one of the keys, a full scan will be performed on the entire table, which can imply unexpected costs both economically and in terms of provisioned performance.
+When using PartiQL, if we do not specify an expression in the condition that searches for one of the keys, a full scan will be performed on the entire table, which can imply unexpected costs both economically and in terms of provisioned performance.
 ## Use case 4 - From S3 To DynamoDB
 ***
 The file <a href="Use case 4 - From S3 To DynamoDB.ipynb">Use case 4 - From S3 To DynamoDB.ipynb</a> shows a practical example of how to read a CSV file stored in an Amazon S3 bucket and insert the corresponding data into a table in DynamoDB.
 
 #### S3Select
 ***
-    A SQL query is executed from Python to automate the ETL process using S3Select to retrieve a subset of the data.
+A SQL query is executed from Python to automate the ETL process using S3Select to retrieve a subset of the data.
 #### De S3 a DynamoDB
 ***
-    The data is loaded from S3 into DynamoDB.
+The data is loaded from S3 into DynamoDB.
 
